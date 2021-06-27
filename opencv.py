@@ -14,9 +14,9 @@ def Detect(img, cascade):
     cv2.waitKey(10000)
     
 
-cascade_filename = 'C:/Study/anlab/haarcascade_frontalface_alt.xml'
+cascade_filename = 'C:/Study/haarcascade_frontalface_alt.xml'
 cascade = cv2.CascadeClassifier(cascade_filename)
 
-img = cv2.imread('C:/Study/anlab/image_00000388608754.jpg')
+img = cv2.imread('C:/Study/image_00000388608754.jpg')
 
 Detect(img, cascade)
