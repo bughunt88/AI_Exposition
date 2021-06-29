@@ -8,6 +8,9 @@ from copy import deepcopy
 from pathlib import Path
 from threading import Thread
 
+import os
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
+
 import numpy as np
 import torch.distributed as dist
 import torch.nn as nn
