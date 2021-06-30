@@ -7,4 +7,5 @@ val: C:/data/task03_train/images/
 nc: 7
 
 # class names
-names: ['eye_opened', 'eye_closed', 'mouth_opened', 'mouth_closed', 'face', 'phone', 'cigar']
+
+names: ['face', 'eye_opened', 'eye_closed', 'mouth_opened', 'mouth_closed', 'phone', 'cigar']
