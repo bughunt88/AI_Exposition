@@ -25,7 +25,7 @@ def test(data,
          imgsz=640,
          conf_thres=0.001,
          iou_thres=0.6,  # for NMS
-         save_json=True,
+         save_json=False,
          single_cls=False,
          augment=False,
          verbose=False,
